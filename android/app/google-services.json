@@ -1,0 +1,134 @@
+{
+  "project_info": {
+    "project_number": "638244808472",
+    "project_id": "flutteremail-1adc4",
+    "storage_bucket": "flutteremail-1adc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638244808472:android:312f67e0abfae6739a606d",
+        "android_client_info": {
+          "package_name": "com.example.auth_or_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638244808472-siumaj70oeqd962ui7vpksahj7o523qn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.auth_or_firebase",
+            "certificate_hash": "f8568f4d38417ae2e6e703570883c2fb89e5b393"
+          }
+        },
+        {
+          "client_id": "638244808472-d5v0mq1sm3vdu57ntlfb3dhgneon3vm3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlf-ZEnKpVnY9fCejuOhijnHSdRZ0D1Po"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638244808472-d5v0mq1sm3vdu57ntlfb3dhgneon3vm3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "638244808472-a1lejnemh9maf3j7rsr7hmrk3r11k8lf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.authOrFirebase"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638244808472:android:b8e10d287da24be89a606d",
+        "android_client_info": {
+          "package_name": "com.example.flutter_google_auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638244808472-4liba6n7ro8igekk3q1ln6972cl67crk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_google_auth",
+            "certificate_hash": "f8568f4d38417ae2e6e703570883c2fb89e5b393"
+          }
+        },
+        {
+          "client_id": "638244808472-d5v0mq1sm3vdu57ntlfb3dhgneon3vm3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlf-ZEnKpVnY9fCejuOhijnHSdRZ0D1Po"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638244808472-d5v0mq1sm3vdu57ntlfb3dhgneon3vm3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "638244808472-a1lejnemh9maf3j7rsr7hmrk3r11k8lf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.authOrFirebase"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638244808472:android:92d6544afa86645c9a606d",
+        "android_client_info": {
+          "package_name": "com.example.kriscent_socail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638244808472-d5v0mq1sm3vdu57ntlfb3dhgneon3vm3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlf-ZEnKpVnY9fCejuOhijnHSdRZ0D1Po"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638244808472-d5v0mq1sm3vdu57ntlfb3dhgneon3vm3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "638244808472-a1lejnemh9maf3j7rsr7hmrk3r11k8lf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.authOrFirebase"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
