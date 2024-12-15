@@ -75,7 +75,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             title: const Text('Upload Photo'),
                             onTap: () {
                               Navigator.pop(context); // Close the sheet
-                              Get.to(() => const ReelPostScreen(isPhotoUpload: true));
+                              Get.to(() => ReelPostScreen(isPhotoUpload: true));
                             },
                           ),
                           ListTile(

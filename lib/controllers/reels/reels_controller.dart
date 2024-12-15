@@ -16,6 +16,7 @@ class ReelsController extends GetxController {
   Rx<TextEditingController> _reelSearchController1 = TextEditingController().obs;
 
   TextEditingController get reelSearchController => _reelSearchController.value;
+  TextEditingController get reelSearchController1 => _reelSearchController1.value;
 
   String get searchQuery => reelSearchController.text;
   RxList<ReelModel> searchedReelsList = <ReelModel>[].obs;
@@ -26,6 +27,7 @@ class ReelsController extends GetxController {
   get isLoading => _isLoading.value;
 
   updateLoading(bool value) => _isLoading.value = value;
+  updateLoadingPhoto(bool value) => _isLoading.value = value;
   RxBool _isCommentLoading = false.obs;
 
   bool get isCommentLoading => _isCommentLoading.value;
@@ -53,7 +55,7 @@ class ReelsController extends GetxController {
 
   File? get videoFile => _videoFile.value;
   File? get photoFile => _videoFile.value;
-  Rx<VideoPlayerController?> _fileVideoController = Rx<VideoPlayerController?>(null);
+  final Rx<VideoPlayerController?> _fileVideoController = Rx<VideoPlayerController?>(null);
 
   VideoPlayerController? get fileVideoController => _fileVideoController.value;
 
@@ -76,6 +78,8 @@ class ReelsController extends GetxController {
   void updatePhotoFile(File? file) => _videoFile.value = file;
   final StorageService _storageService1 =
   StorageService(collectionName: 'photo');
+
+  get uploadTask => null;
 
   @override
   void onInit() {
@@ -110,6 +114,15 @@ class ReelsController extends GetxController {
       if (videoFile != null) {
         videoUrl = await _storageService.uploadMedia(
             file: videoFile!, fileName: reelName(), type: MediaType.video);
+      }
+      else {
+       if(photoFile == null){
+         showMessage(message: "Please choose Photo");
+       }else {
+       updateLoadingPhoto(true);
+       String? photoUrl;
+       photoUrl = await _storageService1.uploadMedia(file: uploadTask!, fileName: reelName(), type: MediaType.image);
+       }
       }
       var newReelId = _reelDbRef.doc().id;
       var reel = ReelModel(

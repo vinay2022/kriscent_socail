@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:kriscent_socail/view/screens/home/tabs/photoPickerWidget.dart';
-import '../../../controllers/reels/reels_controller.dart';
+ import '../../../controllers/reels/reels_controller.dart';
+import '../../utils/app_widgets/pickers/PhotoPickerWidget.dart';
 import '../../utils/app_widgets/pickers/video_picker_widget.dart';
 import '../../utils/app_widgets/textfields/custom_textfiled.dart';
 
